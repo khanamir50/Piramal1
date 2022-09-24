@@ -1,0 +1,39 @@
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+}
+.sidebar {
+    background: #293042;
+    direction: ltr;
+    max-width: 200px;
+    min-width: 180px;
+    transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+}
+.sidebar ul{
+ margin-top: 20px;
+list-style: none;
+}
+.sidebar ul li{
+    margin-bottom: 25px;
+}
+.sidebar ul li a{
+color: #fff;
+text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 0;
+    transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    width: 100%;
+}
+
+.content {
+    direction: ltr;
+    flex: 1;
+    padding: 1.5rem 1.5rem 1.5rem;
+    padding-top: 0px;    
+}
+

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "piramal-purchase-requisitions-spfx-client-side-solution",
+    "id": "9259a605-8222-4938-9e1c-a944b22b8e53",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Piramal-Purchase-Requisitions-SPFX description"
+      },
+      "longDescription": {
+        "default": "Piramal-Purchase-Requisitions-SPFX description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "piramal-purchase-requisitions-spfx Feature",
+        "description": "The feature that activates elements of the piramal-purchase-requisitions-spfx solution.",
+        "id": "336c4d6d-9aed-44f1-a336-158ee4663dce",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/piramal-purchase-requisitions-spfx.sppkg"
+  }
+}

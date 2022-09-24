@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "piramal-purchase-requisitions-spfx",
+    "libraryId": "9259a605-8222-4938-9e1c-a944b22b8e53",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Piramal-Purchase-Requisitions-SPFX",
+    "solutionShortDescription": "Piramal-Purchase-Requisitions-SPFX description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

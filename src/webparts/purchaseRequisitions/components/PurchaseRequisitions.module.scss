@@ -1,0 +1,113 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.purchaseRequisitions {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+.heading{
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.subheading{
+  font-size: 18px;
+}
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+.linkcolor{
+  text-decoration: underline;
+    font-size: 16px;
+    color: #f3562a;
+}
+.btnprimary{
+  background-color: #f3562a;
+  border: 1px solid #f3562a;
+  margin-left: 5px;
+}
+.btnprimary:hover{
+  background-color: #f3562a;
+  border: 1px solid #f3562a;
+}
+.btndefault{
+  background-color: #fff;
+  color: #f3562a;
+  border: 1px solid #f3562a;
+  margin-left: 5px;
+}
+.btndefault:hover{
+  background-color: rgb(243, 242, 241);
+    color: rgb(32, 31, 30);
+}
+.inputwidth{
+  width: 100px;
+  height: 30px;
+}
+.inputwidthreq{
+  min-width: 200px;
+  height: 30px;
+}
+.mrb{
+  margin-top: 20px;
+}
+.tblrequest{
+  margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+  border-bottom: 1px solid #000d;
+}
+.tblrequest thead tr th{
+  background: #293042;
+  color: #fff;
+}
+.tblrequest th, td{
+  white-space: nowrap;
+  padding: 0.5rem 0.857rem;
+}
+.tablebordered>:not(caption)>*>* {
+  border-width: 0 1px;
+}
+.tblreques tbody, td, thead th, tr{
+  border: 0 solid;
+}
+.pagination{
+  list-style: none;  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.pagination li{
+  margin-right: 5px;
+}
+.pagination li a{
+  color: #666;
+  text-decoration: none;
+}
